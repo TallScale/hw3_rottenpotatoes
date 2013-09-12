@@ -12,6 +12,6 @@ Before do
   DatabaseCleaner.start
 end
 
-After do |feature|
+After do |scenario|
   DatabaseCleaner.clean
 end
